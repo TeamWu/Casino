@@ -1,4 +1,4 @@
-common methods:
+common methods to code only once:
 
 betting
 cash
