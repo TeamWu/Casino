@@ -1,0 +1,5 @@
+common methods:
+
+betting
+cash
+random number
