@@ -6,19 +6,21 @@ class Application(Frame):
   #array = [[0 for x in range(18)] for x in range(18)]
   def __init__(self, master=None):
     Frame.__init__(self, master)
-    self.pack()
-    #for r in range(17):
-    #  for c in range(17):
-#	if((r != 0) and (c != 0):
-    #       print("create cell array")#cell CellArray[r][c](r,c,0) # pass (y,x,alive = 1 or dead = 0)
+    self.grid()
     self.createLabels()
+    #self.Enter_Bet()
     #self.createWidgets()
     #self.Loop()
     
-  def quit_pressed(self):
-    self.master.destroy()
-    #quit()
+  def Enter_Bet(self):
+    root2 = tk()
+    Number_Bet = StringVar()
+    Money_Owned.set("2500")#Change to the amount of money needed
     
+    #self.master.destroy()
+    #quit()
+  def quite(self):
+      print("Worked")
   def turn_red(self):
     if self.cell["fg"] == "green":
       
@@ -64,7 +66,40 @@ class Application(Frame):
         #for r in range(17):
         #    for c in range(17):
         #        array[r][c] = 'O'
-
+        self.cell = Label(self, text = "Dealer:").grid(row=0,column=3)
+    #Dealers Hand
+        self.cell = Label(self, text = "Picture1 = ?").grid(row=1,column=1)
+        self.cell = Label(self, text = "Picture2 = ?").grid(row=1,column=2)
+        self.cell = Label(self, text = "Picture3 = ?").grid(row=1,column=3)
+        self.cell = Label(self, text = "Total = ?").grid(row=1,column=5)
+    #Players Hand
+        self.cell = Label(self, text = "Player 1:(Change with actual name)").grid(row=2,column=3)
+        self.cell = Label(self, text = "Picture1 = ?").grid(row=3,column=1)
+        self.cell = Label(self, text = "Picture2 = ?").grid(row=3,column=2)
+        self.cell = Label(self, text = "Picture3 = ?").grid(row=3,column=3)
+        self.cell = Label(self, text = "Total = ?").grid(row=3,column=5)
+    #If Player splits
+        self.cell = Label(self, text = "Player 1 SPLIT:(Change with actual name)").grid(row=4,column=3)
+        self.cell = Label(self, text = "Picture1 = ?").grid(row=5,column=1)
+        self.cell = Label(self, text = "Picture2 = ?").grid(row=5,column=2)
+        self.cell = Label(self, text = "Picture3 = ?").grid(row=5,column=3)
+        self.cell = Label(self, text = "Total = ?").grid(row=5,column=5)
+    #Options:
+        #Dot selects
+        #Dot select labels
+        Selection = StringVar()
+        Hit = Radiobutton(self, text='Hit', variable=Selection, value='Hit').grid(row=6,column=1)
+        Stand = Radiobutton(self, text='Stand', variable=Selection, value='Stand').grid(row=6,column=3)
+        Split = Radiobutton(self, text='Split', variable=Selection, value='Split').grid(row=6,column=5)
+        
+        self.cell = Button(self, text = "Enter", command =self.quite()).grid(row=8,column=3)
+        self.cell = Label(self, text = "Amount won").grid(row=8,column=4)
+        self.cell = Label(self, text = "$Variable Money").grid(row=8,column=5)
+        
+        
+        
+        
+        """
         marker = 'X'
         for r in range(17):
             for c in range(17):
@@ -124,7 +159,7 @@ class Application(Frame):
         self.QUIT.grid(row = 23,column = 19)
         
         
-    
+    """
   #def say_hi(self):
         #print("hi there, everyone!")
 
