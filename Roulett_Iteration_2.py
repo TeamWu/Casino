@@ -160,7 +160,7 @@ def main():
     #Results_Label3 = Label(root2, text = Money_Won).grid(row=3,column=1)
     #print(Roulette_Number)
     #print(Money_Owned)
-    #mainloop()
+    mainloop()
     
     
     
