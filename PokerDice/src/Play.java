@@ -20,10 +20,21 @@ public class Play {
 		secondThirdRolls(nOpps, player1, opponent);
 		secondThirdRolls(nOpps, player1, opponent);
 		
-		for(int x = 0; x <= nOpps; x++) {
+		/*for(int x = 0; x <= nOpps; x++) {
 			opponent[x].goForStraight(2);
 			opponent[x].goForStraight(4);
+			}*/
+		
+
+		for(int x = 0; x <= nOpps; x++) {
+			opponent[x].oppLogic();
 			}
+		
+		for(int x = 0; x <= nOpps; x++) {
+			opponent[x].oppLogic();
+			}
+		
+		
 		for(int x = 0; x <= nOpps; x++) {
 			int number = x + 1;
 			System.out.println("Opponent " + number + ": "  + opponent[x].d1.getFaceValue() + opponent[x].d2.getFaceValue() + opponent[x].d3.getFaceValue() + opponent[x].d4.getFaceValue() + opponent[x].d5.getFaceValue());
