@@ -20,6 +20,17 @@ public class Play {
 		secondThirdRolls(nOpps, player1, opponent);
 		secondThirdRolls(nOpps, player1, opponent);
 		
+		for(int x = 0; x <= nOpps; x++) {
+			opponent[x].goForStraight(2);
+			opponent[x].goForStraight(4);
+			}
+		for(int x = 0; x <= nOpps; x++) {
+			int number = x + 1;
+			System.out.println("Opponent " + number + ": "  + opponent[x].d1.getFaceValue() + opponent[x].d2.getFaceValue() + opponent[x].d3.getFaceValue() + opponent[x].d4.getFaceValue() + opponent[x].d5.getFaceValue());
+			
+			}
+		
+		
 	}
 	
 	public static int NumberOfOpponents() {
@@ -42,20 +53,13 @@ public class Play {
 	}
 	public static void firstRoll(int nOpps, Player player1, Player opponent[]) {
 		
-		//player1.d1.roll();
-		//player1.d2.roll();
-		//player1.d3.roll();
-		//player1.d4.roll();
-		//player1.d5.roll();
+		
 		System.out.println("  Player 1: " + player1.d1.roll() + player1.d2.roll() + player1.d3.roll() + player1.d4.roll() + player1.d5.roll());
-		//System.out.println("Player 1: " + player1.d1.roll() + player1.d2.roll() + player1.d3.roll() + player1.d4.roll() + player1.d5.roll());
-		//System.out.println("Player 1: " + player1.d1.getFaceValue() + player1.d2.getFaceValue() + player1.d3.getFaceValue() + player1.d4.getFaceValue() + player1.d5.getFaceValue());
-		//System.out.println("Player 1: " + player1.d1.getFaceValue() + player1.d2.getFaceValue() + player1.d3.getFaceValue() + player1.d4.getFaceValue() + player1.d5.getFaceValue());
 		
 		
 		for(int x = 0; x <= nOpps; x++) {
 			int number = x + 1;
-			System.out.println("Opponent " + number + ": "  + opponent[nOpps].d1.roll() + opponent[nOpps].d2.roll() + opponent[nOpps].d3.roll() + opponent[nOpps].d4.roll() + opponent[nOpps].d5.roll());
+			System.out.println("Opponent " + number + ": "  + opponent[x].d1.roll() + opponent[x].d2.roll() + opponent[x].d3.roll() + opponent[x].d4.roll() + opponent[x].d5.roll());
 			
 			}
 	}
