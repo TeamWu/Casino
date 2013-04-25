@@ -12,7 +12,6 @@ public class Opponent extends Player {
 				}
 				else {
 					goForStraight(findOne());
-					System.out.println("ooga booga");
 				}
 			}
 			else if(hasMulti() == 0){
