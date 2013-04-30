@@ -1,3 +1,5 @@
+#Slots
+
 from random import *
 
 class Player:
