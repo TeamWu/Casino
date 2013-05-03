@@ -20,7 +20,10 @@ public class Play {
 		secondThirdRolls(nOpps, player1, opponent);
 		secondThirdRolls(nOpps, player1, opponent);
 		
-		
+		/*for(int x = 0; x <= nOpps; x++) {
+			opponent[x].goForStraight(2);
+			opponent[x].goForStraight(4);
+			}*/
 		
 
 		for(int x = 0; x <= nOpps; x++) {
