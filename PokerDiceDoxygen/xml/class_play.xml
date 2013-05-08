@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_play" kind="class" prot="public">
+    <compoundname>Play</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_play_1abbb60c1b7f13afcb8a751deace00c438" prot="package" static="yes" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner Play.keyboard</definition>
+        <argsstring></argsstring>
+        <name>keyboard</name>
+        <initializer>= new Scanner(System.in)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="5" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_play_1aa5e07c98111d810c1874d6c2fca8c4c7" compoundref="_play_8java" startline="47" endline="64">NumberOfOpponents</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">secondThirdRolls</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Play.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="8" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="8" bodyend="45"/>
+        <references refid="class_play_1aa5e07c98111d810c1874d6c2fca8c4c7" compoundref="_play_8java" startline="47" endline="64">NumberOfOpponents</references>
+        <references refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">firstRoll</references>
+        <references refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">secondThirdRolls</references>
+        <references refid="class_opponent_1a21dc0a88cbc3620ab78bf94a1ef3eb83" compoundref="_opponent_8java" startline="6" endline="25">Opponent.oppLogic</references>
+        <references refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" compoundref="_player_8java" startline="5">Player.d2</references>
+        <references refid="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" compoundref="_die_8java" startline="18" endline="20">Die.getFaceValue</references>
+        <references refid="class_player_1a541f8c109e7478eba805cb1638007cad" compoundref="_player_8java" startline="6">Player.d3</references>
+        <references refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" compoundref="_player_8java" startline="7">Player.d4</references>
+        <references refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" compoundref="_player_8java" startline="8">Player.d5</references>
+      </memberdef>
+      <memberdef kind="function" id="class_play_1aa5e07c98111d810c1874d6c2fca8c4c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Play.NumberOfOpponents</definition>
+        <argsstring>()</argsstring>
+        <name>NumberOfOpponents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="47" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="47" bodyend="64"/>
+        <references refid="class_play_1abbb60c1b7f13afcb8a751deace00c438" compoundref="_play_8java" startline="5">keyboard</references>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_play_1a742c10e84b76714dcf4ce34194a69563" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Play.firstRoll</definition>
+        <argsstring>(int nOpps, Player player1, Player opponent[])</argsstring>
+        <name>firstRoll</name>
+        <param>
+          <type>int</type>
+          <declname>nOpps</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>player1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>opponent</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="65" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="65" bodyend="76"/>
+        <references refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" compoundref="_player_8java" startline="4">Player.d1</references>
+        <references refid="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" compoundref="_die_8java" startline="9" endline="12">Die.roll</references>
+        <references refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" compoundref="_player_8java" startline="5">Player.d2</references>
+        <references refid="class_player_1a541f8c109e7478eba805cb1638007cad" compoundref="_player_8java" startline="6">Player.d3</references>
+        <references refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" compoundref="_player_8java" startline="7">Player.d4</references>
+        <references refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" compoundref="_player_8java" startline="8">Player.d5</references>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Play.secondThirdRolls</definition>
+        <argsstring>(int nOpps, Player player1, Player opponent[])</argsstring>
+        <name>secondThirdRolls</name>
+        <param>
+          <type>int</type>
+          <declname>nOpps</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>player1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player" kindref="compound">Player</ref></type>
+          <declname>opponent</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="77" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="77" bodyend="162"/>
+        <references refid="class_play_1abbb60c1b7f13afcb8a751deace00c438" compoundref="_play_8java" startline="5">keyboard</references>
+        <references refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" compoundref="_player_8java" startline="4">Player.d1</references>
+        <references refid="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" compoundref="_die_8java" startline="9" endline="12">Die.roll</references>
+        <references refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" compoundref="_player_8java" startline="5">Player.d2</references>
+        <references refid="class_player_1a541f8c109e7478eba805cb1638007cad" compoundref="_player_8java" startline="6">Player.d3</references>
+        <references refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" compoundref="_player_8java" startline="7">Player.d4</references>
+        <references refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" compoundref="_player_8java" startline="8">Player.d5</references>
+        <references refid="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" compoundref="_die_8java" startline="18" endline="20">Die.getFaceValue</references>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>Scanner</label>
+      </node>
+      <node id="22">
+        <label>Play</label>
+        <link refid="class_play"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>~keyboard</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" line="3" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Play.java" bodystart="3" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_play_1a742c10e84b76714dcf4ce34194a69563" prot="public" virt="non-virtual"><scope>Play</scope><name>firstRoll</name></member>
+      <member refid="class_play_1abbb60c1b7f13afcb8a751deace00c438" prot="package" virt="non-virtual"><scope>Play</scope><name>keyboard</name></member>
+      <member refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" prot="public" virt="non-virtual"><scope>Play</scope><name>main</name></member>
+      <member refid="class_play_1aa5e07c98111d810c1874d6c2fca8c4c7" prot="public" virt="non-virtual"><scope>Play</scope><name>NumberOfOpponents</name></member>
+      <member refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" prot="public" virt="non-virtual"><scope>Play</scope><name>secondThirdRolls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

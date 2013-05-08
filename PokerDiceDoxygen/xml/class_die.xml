@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_die" kind="class" prot="public">
+    <compoundname>Die</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Die.faceValue</definition>
+        <argsstring></argsstring>
+        <name>faceValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="3" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_die_1aa49873b421dd60c9528587a34afa4936" compoundref="_die_8java" startline="5" endline="7">Die</referencedby>
+        <referencedby refid="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" compoundref="_die_8java" startline="9" endline="12">roll</referencedby>
+        <referencedby refid="class_die_1a7bed8ca48fc4218d5df39cbfc4bc1c55" compoundref="_die_8java" startline="14" endline="16">setFaceValue</referencedby>
+        <referencedby refid="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" compoundref="_die_8java" startline="18" endline="20">getFaceValue</referencedby>
+        <referencedby refid="class_die_1abdb7037068a31dd11bb2461ffb1d3090" compoundref="_die_8java" startline="22" endline="25">toString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_die_1aa49873b421dd60c9528587a34afa4936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Die.Die</definition>
+        <argsstring>()</argsstring>
+        <name>Die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="5" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="5" bodyend="7"/>
+        <references refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" compoundref="_die_8java" startline="3">faceValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Die.roll</definition>
+        <argsstring>()</argsstring>
+        <name>roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="9" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="9" bodyend="12"/>
+        <references refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" compoundref="_die_8java" startline="3">faceValue</references>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_die_1a7bed8ca48fc4218d5df39cbfc4bc1c55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Die.setFaceValue</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setFaceValue</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="14" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="14" bodyend="16"/>
+        <references refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" compoundref="_die_8java" startline="3">faceValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Die.getFaceValue</definition>
+        <argsstring>()</argsstring>
+        <name>getFaceValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="18" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="18" bodyend="20"/>
+        <references refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" compoundref="_die_8java" startline="3">faceValue</references>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">Play.main</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_die_1abdb7037068a31dd11bb2461ffb1d3090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Die.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="22" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="22" bodyend="25"/>
+        <references refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" compoundref="_die_8java" startline="3">faceValue</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>Die</label>
+        <link refid="class_die"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" line="1" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Die.java" bodystart="1" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_die_1aa49873b421dd60c9528587a34afa4936" prot="public" virt="non-virtual"><scope>Die</scope><name>Die</name></member>
+      <member refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" prot="private" virt="non-virtual"><scope>Die</scope><name>faceValue</name></member>
+      <member refid="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" prot="public" virt="non-virtual"><scope>Die</scope><name>getFaceValue</name></member>
+      <member refid="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" prot="public" virt="non-virtual"><scope>Die</scope><name>roll</name></member>
+      <member refid="class_die_1a7bed8ca48fc4218d5df39cbfc4bc1c55" prot="public" virt="non-virtual"><scope>Die</scope><name>setFaceValue</name></member>
+      <member refid="class_die_1abdb7037068a31dd11bb2461ffb1d3090" prot="public" virt="non-virtual"><scope>Die</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

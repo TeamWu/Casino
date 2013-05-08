@@ -1,0 +1,13 @@
+<map id="Play.main" name="Play.main">
+<area shape="rect" id="node2" href="$class_play.html#aa5e07c98111d810c1874d6c2fca8c4c7" title="Play.NumberOfOpponents" alt="" coords="134,5,311,33"/>
+<area shape="rect" id="node3" href="$class_play.html#a742c10e84b76714dcf4ce34194a69563" title="Play.firstRoll" alt="" coords="175,57,270,85"/>
+<area shape="rect" id="node5" href="$class_play.html#a9ea5cb7c71895dd961ddcedb880a0ca9" title="Play.secondThirdRolls" alt="" coords="366,82,519,110"/>
+<area shape="rect" id="node7" href="$class_opponent.html#a21dc0a88cbc3620ab78bf94a1ef3eb83" title="Opponent.oppLogic" alt="" coords="154,213,292,241"/>
+<area shape="rect" id="node6" href="$class_die.html#a1d9a6614c97c08cab0b509fa4168eca8" title="Die.getFaceValue" alt="" coords="574,290,701,318"/>
+<area shape="rect" id="node4" href="$class_die.html#a3d2d0ee593b292019d997dfef74b0dbb" title="Die.roll" alt="" coords="606,109,669,137"/>
+<area shape="rect" id="node8" href="$class_opponent.html#a35ce9e9427404b94f2cb7a3f812d2707" title="Opponent.hasMulti" alt="" coords="376,290,509,318"/>
+<area shape="rect" id="node9" href="$class_opponent.html#afa3112090a78a2d9506c3fba37556700" title="Opponent.checkStraight" alt="" coords="360,342,525,370"/>
+<area shape="rect" id="node10" href="$class_opponent.html#aafdee9152eb58557fd822efe83f7f820" title="Opponent.goForStraight" alt="" coords="360,134,525,162"/>
+<area shape="rect" id="node11" href="$class_opponent.html#a3670cd1623069075c9a5a42091ef438a" title="Opponent.findOne" alt="" coords="378,238,508,266"/>
+<area shape="rect" id="node12" href="$class_opponent.html#a3cbde8a44023b31707b1b2e867d3d095" title="Opponent.goForPairs" alt="" coords="368,186,517,214"/>
+</map>

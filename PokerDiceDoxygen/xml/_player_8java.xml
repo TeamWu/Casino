@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="_player_8java" kind="file">
+    <compoundname>Player.java</compoundname>
+    <innerclass refid="class_player" prot="public">Player</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="class_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player" kindref="compound">Player</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="4" refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_die" kindref="compound">Die</ref><sp/><ref refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" kindref="member">d1</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_die" kindref="compound">Die</ref>();</highlight></codeline>
+<codeline lineno="5" refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_die" kindref="compound">Die</ref><sp/><ref refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" kindref="member">d2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_die" kindref="compound">Die</ref>();</highlight></codeline>
+<codeline lineno="6" refid="class_player_1a541f8c109e7478eba805cb1638007cad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_die" kindref="compound">Die</ref><sp/><ref refid="class_player_1a541f8c109e7478eba805cb1638007cad" kindref="member">d3</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_die" kindref="compound">Die</ref>();</highlight></codeline>
+<codeline lineno="7" refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_die" kindref="compound">Die</ref><sp/><ref refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" kindref="member">d4</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_die" kindref="compound">Die</ref>();</highlight></codeline>
+<codeline lineno="8" refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_die" kindref="compound">Die</ref><sp/><ref refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" kindref="member">d5</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_die" kindref="compound">Die</ref>();</highlight></codeline>
+<codeline lineno="9" refid="class_player_1ae4fda097bcc40683e9b140bbee10d403" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/><ref refid="class_player_1ae4fda097bcc40683e9b140bbee10d403" kindref="member">playerName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12" refid="class_player_1a712a726b07cf901c040116d6d0c5cc66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_player_1a712a726b07cf901c040116d6d0c5cc66" kindref="member">Player</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java"/>
+  </compounddef>
+</doxygen>

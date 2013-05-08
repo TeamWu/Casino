@@ -1,0 +1,4 @@
+<map id="Play.secondThirdRolls" name="Play.secondThirdRolls">
+<area shape="rect" id="node2" href="$class_die.html#a3d2d0ee593b292019d997dfef74b0dbb" title="Die.roll" alt="" coords="241,5,303,33"/>
+<area shape="rect" id="node3" href="$class_die.html#a1d9a6614c97c08cab0b509fa4168eca8" title="Die.getFaceValue" alt="" coords="209,57,335,85"/>
+</map>

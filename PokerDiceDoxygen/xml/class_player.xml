@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.3.1">
+  <compounddef id="class_player" kind="class" prot="public">
+    <compoundname>Player</compoundname>
+    <derivedcompoundref refid="class_opponent" prot="public" virt="non-virtual">Opponent</derivedcompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_player_1a6a844c97ec2c4a8226625b75e612a509" prot="package" static="no" mutable="no">
+        <type><ref refid="class_die" kindref="compound">Die</ref></type>
+        <definition>Die Player.d1</definition>
+        <argsstring></argsstring>
+        <name>d1</name>
+        <initializer>= new <ref refid="class_die" kindref="compound">Die</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="4" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="4" bodyend="-1"/>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" prot="package" static="no" mutable="no">
+        <type><ref refid="class_die" kindref="compound">Die</ref></type>
+        <definition>Die Player.d2</definition>
+        <argsstring></argsstring>
+        <name>d2</name>
+        <initializer>= new <ref refid="class_die" kindref="compound">Die</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="5" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">Play.main</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1a541f8c109e7478eba805cb1638007cad" prot="package" static="no" mutable="no">
+        <type><ref refid="class_die" kindref="compound">Die</ref></type>
+        <definition>Die Player.d3</definition>
+        <argsstring></argsstring>
+        <name>d3</name>
+        <initializer>= new <ref refid="class_die" kindref="compound">Die</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="6" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">Play.main</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1afe8794243ec655d08fcf9df5691d7fe6" prot="package" static="no" mutable="no">
+        <type><ref refid="class_die" kindref="compound">Die</ref></type>
+        <definition>Die Player.d4</definition>
+        <argsstring></argsstring>
+        <name>d4</name>
+        <initializer>= new <ref refid="class_die" kindref="compound">Die</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="7" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">Play.main</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" prot="package" static="no" mutable="no">
+        <type><ref refid="class_die" kindref="compound">Die</ref></type>
+        <definition>Die Player.d5</definition>
+        <argsstring></argsstring>
+        <name>d5</name>
+        <initializer>= new <ref refid="class_die" kindref="compound">Die</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="8" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" compoundref="_opponent_8java" startline="26" endline="52">Opponent.hasMulti</referencedby>
+        <referencedby refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" compoundref="_opponent_8java" startline="56" endline="58">Opponent.checkStraight</referencedby>
+        <referencedby refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" compoundref="_opponent_8java" startline="61" endline="75">Opponent.findOne</referencedby>
+        <referencedby refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" compoundref="_opponent_8java" startline="78" endline="99">Opponent.goForStraight</referencedby>
+        <referencedby refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" compoundref="_opponent_8java" startline="101" endline="122">Opponent.goForPairs</referencedby>
+        <referencedby refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" compoundref="_play_8java" startline="8" endline="45">Play.main</referencedby>
+        <referencedby refid="class_play_1a742c10e84b76714dcf4ce34194a69563" compoundref="_play_8java" startline="65" endline="76">Play.firstRoll</referencedby>
+        <referencedby refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" compoundref="_play_8java" startline="77" endline="162">Play.secondThirdRolls</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1ae4fda097bcc40683e9b140bbee10d403" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Player.playerName</definition>
+        <argsstring></argsstring>
+        <name>playerName</name>
+        <initializer>= &quot; &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="9" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1a712a726b07cf901c040116d6d0c5cc66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Player.Player</definition>
+        <argsstring>()</argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="12" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="12" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>Opponent</label>
+        <link refid="class_opponent"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Player</label>
+        <link refid="class_player"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>Die</label>
+        <link refid="class_die"/>
+      </node>
+      <node id="26">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="27" relation="usage">
+          <edgelabel>~d1</edgelabel>
+          <edgelabel>~d2</edgelabel>
+          <edgelabel>~d3</edgelabel>
+          <edgelabel>~d4</edgelabel>
+          <edgelabel>~d5</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" line="2" bodyfile="/Users/sethschoming/GitHub/Casino/PokerDice/src/Player.java" bodystart="2" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" prot="package" virt="non-virtual"><scope>Player</scope><name>d1</name></member>
+      <member refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" prot="package" virt="non-virtual"><scope>Player</scope><name>d2</name></member>
+      <member refid="class_player_1a541f8c109e7478eba805cb1638007cad" prot="package" virt="non-virtual"><scope>Player</scope><name>d3</name></member>
+      <member refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" prot="package" virt="non-virtual"><scope>Player</scope><name>d4</name></member>
+      <member refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" prot="package" virt="non-virtual"><scope>Player</scope><name>d5</name></member>
+      <member refid="class_player_1a712a726b07cf901c040116d6d0c5cc66" prot="public" virt="non-virtual"><scope>Player</scope><name>Player</name></member>
+      <member refid="class_player_1ae4fda097bcc40683e9b140bbee10d403" prot="package" virt="non-virtual"><scope>Player</scope><name>playerName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

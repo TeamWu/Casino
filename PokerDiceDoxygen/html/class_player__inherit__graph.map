@@ -1,0 +1,3 @@
+<map id="Player" name="Player">
+<area shape="rect" id="node2" href="$class_opponent.html" title="{Opponent\n||+ oppLogic()\l+ hasMulti()\l+ checkStraight()\l+ findOne()\l+ goForStraight()\l+ goForPairs()\l}" alt="" coords="4,217,125,378"/>
+</map>

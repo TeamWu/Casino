@@ -1,0 +1,8 @@
+<map id="Die.roll" name="Die.roll">
+<area shape="rect" id="node2" href="$class_opponent.html#aafdee9152eb58557fd822efe83f7f820" title="Opponent.goForStraight" alt="" coords="118,5,282,33"/>
+<area shape="rect" id="node5" href="$class_opponent.html#a3cbde8a44023b31707b1b2e867d3d095" title="Opponent.goForPairs" alt="" coords="126,57,274,85"/>
+<area shape="rect" id="node6" href="$class_play.html#a742c10e84b76714dcf4ce34194a69563" title="Play.firstRoll" alt="" coords="361,107,455,135"/>
+<area shape="rect" id="node7" href="$class_play.html#a9ea5cb7c71895dd961ddcedb880a0ca9" title="Play.secondThirdRolls" alt="" coords="332,159,485,187"/>
+<area shape="rect" id="node3" href="$class_opponent.html#a21dc0a88cbc3620ab78bf94a1ef3eb83" title="Opponent.oppLogic" alt="" coords="339,55,477,83"/>
+<area shape="rect" id="node4" href="$class_play.html#a1d6f1ee4bcb53ff10620aa60e1cb5396" title="Play.main" alt="" coords="534,107,613,135"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Opponent.oppLogic" name="Opponent.oppLogic">
+<area shape="rect" id="node2" href="$class_opponent.html#a35ce9e9427404b94f2cb7a3f812d2707" title="Opponent.hasMulti" alt="" coords="208,5,341,33"/>
+<area shape="rect" id="node4" href="$class_opponent.html#afa3112090a78a2d9506c3fba37556700" title="Opponent.checkStraight" alt="" coords="192,57,357,85"/>
+<area shape="rect" id="node5" href="$class_opponent.html#aafdee9152eb58557fd822efe83f7f820" title="Opponent.goForStraight" alt="" coords="192,161,357,189"/>
+<area shape="rect" id="node7" href="$class_opponent.html#a3670cd1623069075c9a5a42091ef438a" title="Opponent.findOne" alt="" coords="210,109,340,137"/>
+<area shape="rect" id="node8" href="$class_opponent.html#a3cbde8a44023b31707b1b2e867d3d095" title="Opponent.goForPairs" alt="" coords="200,213,349,241"/>
+<area shape="rect" id="node3" href="$class_die.html#a1d9a6614c97c08cab0b509fa4168eca8" title="Die.getFaceValue" alt="" coords="406,57,533,85"/>
+<area shape="rect" id="node6" href="$class_die.html#a3d2d0ee593b292019d997dfef74b0dbb" title="Die.roll" alt="" coords="438,186,501,214"/>
+</map>

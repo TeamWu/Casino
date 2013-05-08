@@ -1,0 +1,8 @@
+<map id="Die.getFaceValue" name="Die.getFaceValue">
+<area shape="rect" id="node2" href="$class_opponent.html#a35ce9e9427404b94f2cb7a3f812d2707" title="Opponent.hasMulti" alt="" coords="197,5,331,33"/>
+<area shape="rect" id="node5" href="$class_opponent.html#afa3112090a78a2d9506c3fba37556700" title="Opponent.checkStraight" alt="" coords="182,57,346,85"/>
+<area shape="rect" id="node6" href="$class_opponent.html#a3670cd1623069075c9a5a42091ef438a" title="Opponent.findOne" alt="" coords="199,109,329,137"/>
+<area shape="rect" id="node4" href="$class_play.html#a1d6f1ee4bcb53ff10620aa60e1cb5396" title="Play.main" alt="" coords="598,161,677,189"/>
+<area shape="rect" id="node7" href="$class_play.html#a9ea5cb7c71895dd961ddcedb880a0ca9" title="Play.secondThirdRolls" alt="" coords="396,213,549,241"/>
+<area shape="rect" id="node3" href="$class_opponent.html#a21dc0a88cbc3620ab78bf94a1ef3eb83" title="Opponent.oppLogic" alt="" coords="403,83,541,111"/>
+</map>

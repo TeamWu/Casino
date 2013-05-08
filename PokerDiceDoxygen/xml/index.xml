@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.3.1">
+  <compound refid="class_die" kind="class"><name>Die</name>
+    <member refid="class_die_1a5e66313ff19a34a177fdc155f2b8fe50" kind="variable"><name>faceValue</name></member>
+    <member refid="class_die_1aa49873b421dd60c9528587a34afa4936" kind="function"><name>Die</name></member>
+    <member refid="class_die_1a3d2d0ee593b292019d997dfef74b0dbb" kind="function"><name>roll</name></member>
+    <member refid="class_die_1a7bed8ca48fc4218d5df39cbfc4bc1c55" kind="function"><name>setFaceValue</name></member>
+    <member refid="class_die_1a1d9a6614c97c08cab0b509fa4168eca8" kind="function"><name>getFaceValue</name></member>
+    <member refid="class_die_1abdb7037068a31dd11bb2461ffb1d3090" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="class_opponent" kind="class"><name>Opponent</name>
+    <member refid="class_opponent_1a21dc0a88cbc3620ab78bf94a1ef3eb83" kind="function"><name>oppLogic</name></member>
+    <member refid="class_opponent_1a35ce9e9427404b94f2cb7a3f812d2707" kind="function"><name>hasMulti</name></member>
+    <member refid="class_opponent_1afa3112090a78a2d9506c3fba37556700" kind="function"><name>checkStraight</name></member>
+    <member refid="class_opponent_1a3670cd1623069075c9a5a42091ef438a" kind="function"><name>findOne</name></member>
+    <member refid="class_opponent_1aafdee9152eb58557fd822efe83f7f820" kind="function"><name>goForStraight</name></member>
+    <member refid="class_opponent_1a3cbde8a44023b31707b1b2e867d3d095" kind="function"><name>goForPairs</name></member>
+    <member refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" kind="variable"><name>d1</name></member>
+    <member refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" kind="variable"><name>d2</name></member>
+    <member refid="class_player_1a541f8c109e7478eba805cb1638007cad" kind="variable"><name>d3</name></member>
+    <member refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" kind="variable"><name>d4</name></member>
+    <member refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" kind="variable"><name>d5</name></member>
+    <member refid="class_player_1ae4fda097bcc40683e9b140bbee10d403" kind="variable"><name>playerName</name></member>
+  </compound>
+  <compound refid="class_play" kind="class"><name>Play</name>
+    <member refid="class_play_1abbb60c1b7f13afcb8a751deace00c438" kind="variable"><name>keyboard</name></member>
+    <member refid="class_play_1a1d6f1ee4bcb53ff10620aa60e1cb5396" kind="function"><name>main</name></member>
+    <member refid="class_play_1aa5e07c98111d810c1874d6c2fca8c4c7" kind="function"><name>NumberOfOpponents</name></member>
+    <member refid="class_play_1a742c10e84b76714dcf4ce34194a69563" kind="function"><name>firstRoll</name></member>
+    <member refid="class_play_1a9ea5cb7c71895dd961ddcedb880a0ca9" kind="function"><name>secondThirdRolls</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1a6a844c97ec2c4a8226625b75e612a509" kind="variable"><name>d1</name></member>
+    <member refid="class_player_1a1c73264f71cfaa2e0530fb0f3bfd4e1e" kind="variable"><name>d2</name></member>
+    <member refid="class_player_1a541f8c109e7478eba805cb1638007cad" kind="variable"><name>d3</name></member>
+    <member refid="class_player_1afe8794243ec655d08fcf9df5691d7fe6" kind="variable"><name>d4</name></member>
+    <member refid="class_player_1ae09435fbfcb1f6dc0d6e4e30ce5e7d03" kind="variable"><name>d5</name></member>
+    <member refid="class_player_1ae4fda097bcc40683e9b140bbee10d403" kind="variable"><name>playerName</name></member>
+    <member refid="class_player_1a712a726b07cf901c040116d6d0c5cc66" kind="function"><name>Player</name></member>
+  </compound>
+  <compound refid="_die_8java" kind="file"><name>Die.java</name>
+  </compound>
+  <compound refid="_opponent_8java" kind="file"><name>Opponent.java</name>
+  </compound>
+  <compound refid="_play_8java" kind="file"><name>Play.java</name>
+  </compound>
+  <compound refid="_player_8java" kind="file"><name>Player.java</name>
+  </compound>
+</doxygenindex>
